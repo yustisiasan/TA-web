@@ -1,0 +1,123 @@
+/* CSS Setelah login*/
+table {
+	 
+	  border-collapse: collapse;
+	  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	}
+	tbody {
+	  color: #000;
+	}
+	table th, table td {
+	  padding: 5px 10px;
+	  border: 2px solid #EEF7FB;
+	}
+	table tr {
+	  font: normal 14px Tahoma, Geneva, sans-serif;
+	  background: #ECBE04;
+	}
+	table td {
+	  -webkit-transition: all 0.7s ease-in-out 0s;
+	  -moz-transition: all 0.7s ease-in-out 0s;
+	  -o-transition: all 0.7s ease-in-out 0s;
+	  transition: all 0.7s ease-in-out 0s;
+	}
+	table tr:nth-child(2n+0) {
+	  background: #FAEEBC;
+	}
+	table td:hover, table td:nth-child(2n+0):hover {
+	  background: #EEF7FB;
+	}
+	table th {
+	  background: #3EA4D0;
+	  color: #DAEEF6;
+	  text-shadow: 1px 1px 0 #1F627F;
+	  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 0 100px rgba(0, 0, 0, 0.15) inset;
+	  font: bold 16px Arial, Helvetica, sans-serif;
+	}
+
+/* CSS Form Login */
+ #frame-login{
+	float:left;
+	margin-top:150px;
+	margin-left:450px;
+	width:400px;
+	height:260px;
+	background-color:white;
+	box-shadow: 1px 3px 5px 3px #888888; 
+}
+
+#login{
+	background-color:#008242;
+	margin-left:10px;
+	margin-top:10px;
+	width:380px;
+	height:240px;
+	position:absolute;
+}
+
+.login{
+	margin-left:25px;
+	margin-bottom:10px;
+	margin-top:10px;
+	font-family:fontgothicitalicbold;
+	color:white;
+}
+
+.text{
+	font-family:fontgothic;
+	font-size:15px;
+	width:330px;
+	height:30px;
+	margin-top:10px;
+	margin-left:25px;
+	box-shadow: 0px 3px 3px 0px #888888 inset;
+}
+
+.button{
+	border:1px solid green;
+	background-color:white;
+	color:#008242;
+	font-size:15px;
+	height:30px;
+	margin-top:10px;
+	margin-left:25px;
+	margin-bottom:10px;
+	font-family:fontgothic;
+}
+
+.button:hover{	
+	border:1px solid white;
+	background-color:#008242;
+	color:white;
+}
+
+.button:active{
+	border:1px solid green;
+	background-color:white;
+	color:green;
+	text-shadow: 1px 1px 2px #666;
+	box-shadow: 0px 1px 2px 0px #888888 inset;
+}
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:red;
+}
+
+#header{
+		background-color:#9c252e;
+		color:white;
+		padding:10px;
+	}
+#header p, #header a{
+		text-align:right;	
+		color:lightgrey;
+		text-decoration:none;
+	}
+#header a:hover{
+		color: white;
+	}

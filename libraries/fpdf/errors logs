@@ -1,0 +1,108 @@
+[kafabih@Nouveau ~]$ sendmail -t -f kafalterbang@gmail.com -v -i < '/home/webstorage/ngasprak/MVC/PIS-01/Mail-pdf/Lib/fpdf/mail' 
+WARNING: local host name (Nouveau) is not qualified; see cf/README: WHO AM I?
+kafalterbang@gmail.com... My unqualified host name (Nouveau) unknown; sleeping for retry
+kafalterbang@gmail.com... WARNING: unable to qualify my own domain name (Nouveau) -- using short name
+Vasya<kafalterbang@gmail.com>... Connecting to [127.0.0.1] via relay...
+220 Nouveau ESMTP Sendmail 8.14.4/8.14.4/Debian-4.1ubuntu1; Mon, 14 Mar 2016 13:54:46 +0700; (No UCE/UBE) logging access from: localhost(OK)-localhost [127.0.0.1]
+>>> EHLO Nouveau
+250-Nouveau Hello localhost [127.0.0.1], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-EXPN
+250-VERB
+250-8BITMIME
+250-SIZE
+250-DSN
+250-ETRN
+250-AUTH DIGEST-MD5 CRAM-MD5
+250-DELIVERBY
+250 HELP
+>>> VERB
+250 2.0.0 Verbose mode
+>>> MAIL From:<kafalterbang@gmail.com> SIZE=110
+250 2.1.0 <kafalterbang@gmail.com>... Sender ok
+>>> RCPT To:<kafalterbang@gmail.com>
+>>> DATA
+250 2.1.5 <kafalterbang@gmail.com>... Recipient ok
+354 Enter mail, end with "." on a line by itself
+>>> .
+050 <kafalterbang@gmail.com>... Connecting to gmail-smtp-in.l.google.com. via esmtp...
+050 220 mx.google.com ESMTP n79si27879344pfj.101 - gsmtp
+050 >>> EHLO Nouveau
+050 250-mx.google.com at your service, [103.233.100.3]
+050 250-SIZE 35882577
+050 250-8BITMIME
+050 250-STARTTLS
+050 250-ENHANCEDSTATUSCODES
+050 250-PIPELINING
+050 250-CHUNKING
+050 250 SMTPUTF8
+050 >>> STARTTLS
+050 220 2.0.0 Ready to start TLS
+050 >>> EHLO Nouveau
+050 250-mx.google.com at your service, [103.233.100.3]
+050 250-SIZE 35882577
+050 250-8BITMIME
+050 250-ENHANCEDSTATUSCODES
+050 250-PIPELINING
+050 250-CHUNKING
+050 250 SMTPUTF8
+050 >>> MAIL From:<kafalterbang@gmail.com> SIZE=410
+050 250 2.1.0 OK n79si27879344pfj.101 - gsmtp
+050 >>> RCPT To:<kafalterbang@gmail.com>
+050 >>> DATA
+050 250 2.1.5 OK n79si27879344pfj.101 - gsmtp
+050 354  Go ahead n79si27879344pfj.101 - gsmtp
+050 >>> .
+050 550-5.7.1 [103.233.100.3       1] Our system has detected an unusual rate of
+050 550-5.7.1 unsolicited mail originating from your IP address. To protect our
+050 550-5.7.1 users from spam, mail sent from your IP address has been blocked.
+050 550-5.7.1 Please visit
+050 550-5.7.1  https://support.google.com/mail/answer/81126 to review our Bulk Email
+050 550 5.7.1 Senders Guidelines. n79si27879344pfj.101 - gsmtp
+050 >>> RSET
+050 <kafalterbang@gmail.com>... Connecting to gmail-smtp-in.l.google.com. via esmtp...
+050 220 mx.google.com ESMTP q90si17296684pfa.198 - gsmtp
+050 >>> EHLO Nouveau
+050 250-mx.google.com at your service, [103.233.100.3]
+050 250-SIZE 35882577
+050 250-8BITMIME
+050 250-STARTTLS
+050 250-ENHANCEDSTATUSCODES
+050 250-PIPELINING
+050 250-CHUNKING
+050 250 SMTPUTF8
+050 >>> STARTTLS
+050 220 2.0.0 Ready to start TLS
+050 >>> EHLO Nouveau
+050 250-mx.google.com at your service, [103.233.100.3]
+050 250-SIZE 35882577
+050 250-8BITMIME
+050 250-ENHANCEDSTATUSCODES
+050 250-PIPELINING
+050 250-CHUNKING
+050 250 SMTPUTF8
+050 >>> MAIL From:<>
+050 250 2.1.0 OK q90si17296684pfa.198 - gsmtp
+050 >>> RCPT To:<kafalterbang@gmail.com>
+050 >>> DATA
+050 250 2.1.5 OK q90si17296684pfa.198 - gsmtp
+050 354  Go ahead q90si17296684pfa.198 - gsmtp
+050 >>> .
+050 550-5.7.1 [103.233.100.3       1] Our system has detected an unusual rate of
+050 550-5.7.1 unsolicited mail originating from your IP address. To protect our
+050 550-5.7.1 users from spam, mail sent from your IP address has been blocked.
+050 550-5.7.1 Please visit
+050 550-5.7.1  https://support.google.com/mail/answer/81126 to review our Bulk Email
+050 550 5.7.1 Senders Guidelines. q90si17296684pfa.198 - gsmtp
+050 MAILER-DAEMON... aliased to postmaster
+050 postmaster... aliased to root
+050 postmaster... aliased to root
+050 root... Connecting to local...
+050 root... Sent
+250 2.0.0 u2E6sko4030867 Message accepted for delivery
+Vasya<kafalterbang@gmail.com>... Sent (u2E6sko4030867 Message accepted for delivery)
+Closing connection to [127.0.0.1]
+>>> QUIT
+221 2.0.0 Nouveau closing connection
+
